@@ -9,5 +9,5 @@ cors_proxy.createServer({
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
-    console.log('Running  Joel CORS Anywhere on ' + host + ':' + port);
+    console.log('Running  Joel Pablo CORS Anywhere on ' + host + ':' + port);
 });
