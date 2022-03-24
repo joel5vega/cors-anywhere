@@ -1,0 +1,7 @@
+As noted in https://code4developers.com/cors-anywhere/
+one easy way is to use a cors server deployed on herokuapp
+axios({
+    method: 'get',
+    url: 'https://cors-anywhere.herokuapp.com/https://example.com/',
+    headers: {'Origin': 'https://example.com'}
+})
